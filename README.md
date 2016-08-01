@@ -6,3 +6,5 @@ Sıkılaştırma adımları bu repository'nin Wiki kısmında anlatılmaktadır.
 
 Code kısmında da Powershell ile bu sıkılaştırma adımlarının yapılıp yapılmadığıyla ilgili küçük script'ler mevcuttur. Bu scriptlerin çalışması için RSAT araçlarının yüklü olması gerekmektedir (http://www.microsoft.com/download/en/details.aspx?id=7887). Bu konu ile ilgili daha ayrıntılı bilgi için: (http://newdelhipowershellusergroup.blogspot.nl/2012/07/enable-group-policy-powershell-module.html)
 
+Ayrıca, bilgisayarda ilk defa bir powershell scripti çalıştırılıyorsa, öncelikle terminal (cmd.exe) yönetici olarak çalıştırılır. Ardından: "powershell set-executionpolicy remotesigned" komutu girilir. Aksi takdirde scriptler güvenlik gereği bu bilgisayar tarafından çalıştırılmayacaktır.
+
