@@ -1,7 +1,7 @@
 # Powershell ile Yerel Grup İlkeleri Nasıl Yönetilir
 ## Yerel Grup İlkesi Objelerini Powershell kullanarak yönetme
 Sadece Windows'un Grup İlkeleri Cmdlet'leri kullanılarak Yerel Grup İlkelerini yönetmek bir hayli zor diyebiliriz.
-Bu konudaki en kapsamlı çalışmalardan biri [Dave Wyatt](https://twitter.com/msh_dave)'ın [PolicyFileEditor](https://github.com/dlwyatt/PolicyFileEditor) adlı modülü. Bu modül ile Yerel Grup İlkeleri düzenlenebilir ve hazır ilke şablonlarından ilkeler alınabilir. Bu kılavuzun referansı [link](http://brandonpadgett.com/powershell/Local-gpo-powershell/)te bulunmaktadır.
+Bu konuda işimizi en çok kolaylaştıran çalışmalardan biri [Dave Wyatt](https://twitter.com/msh_dave)'ın [PolicyFileEditor](https://github.com/dlwyatt/PolicyFileEditor) adlı modülü. Bu modül ile Yerel Grup İlkeleri düzenlenebilir ve hazır ilke şablonlarından ilkeler alınabilir. Bu kılavuzun referansı [link](http://brandonpadgett.com/powershell/Local-gpo-powershell/)te bulunmaktadır.
 
 *PolicyFileEditor*'ü kullanmak için öncelikle modifiye edeceğimiz ilkelerin dizinini belirtmemiz gerekiyor. Yerel grup ilkeleri için bu linkler aşağıdaki gibidir:
 
